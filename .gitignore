@@ -160,6 +160,7 @@ cython_debug/
 #.idea/
 
 core/config.py
+*/migrations
 
 # Frontend Preact App
 frontend/preact-app/dist

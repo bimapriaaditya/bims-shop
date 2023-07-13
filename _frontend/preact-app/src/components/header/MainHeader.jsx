@@ -12,15 +12,15 @@ export const MainHeader = () => {
                         <img src={ mainLogo } alt="profile-logo" className='w-full object-cover invert' draggable='false' />
                     </div>
                     <div className="flex-grow py-3">
-                        <div className='border border-white/50 rounded-xl px-3 py-2 w-full flex gap-4'>
+                        <div className='bg-white/10 rounded-full px-3 py-2 w-full flex gap-4 transition duration-300 hover:bg-white/20'>
                             <div className='border-r border-white/20 pr-3'>
-                                <button type='button' className='py-2 px-4 rounded-md transition duration-500 hover:bg-white/10 inline-flex items-center gap-3'>
+                                <button type='button' className='py-2 px-4 rounded-full transition duration-500 hover:bg-white/10 inline-flex items-center gap-3'>
                                     <Grid />
                                     <span>Kategori</span>
                                 </button>
                             </div>
                             <input type="text" className='grow-1 bg-transparent outline-none text-lg w-full' />
-                            <button type='button' className='bg-white rounded-lg text-black flex gap-2 items-center px-3'>
+                            <button type='button' className='bg-black/20 rounded-full text-white flex gap-2 items-center px-5'>
                                 <Search />
                                 <span>Cari</span>
                             </button>

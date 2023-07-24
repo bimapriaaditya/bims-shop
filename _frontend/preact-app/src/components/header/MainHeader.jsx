@@ -1,6 +1,7 @@
 import mainLogo from '../../assets/logo.png';
 import userImage from '../../assets/user-image.png'
-import { Heart, Cart3, Grid, Search } from 'react-bootstrap-icons';
+import { Heart, Cart3, Grid, Search, Sliders } from 'react-bootstrap-icons';
+import ButtonGlass from '../_segments/buttons/ButtonGlass'
 
 
 export const MainHeader = () => {
@@ -14,16 +15,15 @@ export const MainHeader = () => {
                     <div className="flex-grow py-3">
                         <div className='bg-white/10 rounded-full px-3 py-2 w-full flex gap-4 transition duration-300 hover:bg-white/20'>
                             <div className='border-r border-white/20 pr-3'>
-                                <button type='button' className='py-2 px-4 rounded-full transition duration-500 hover:bg-white/10 inline-flex items-center gap-3'>
+                                <ButtonGlass>
                                     <Grid />
                                     <span>Kategori</span>
-                                </button>
+                                </ButtonGlass>
                             </div>
-                            <input type="text" className='grow-1 bg-transparent outline-none text-lg w-full' />
-                            <button type='button' className='bg-black/20 rounded-full text-white flex gap-2 items-center px-5'>
-                                <Search />
-                                <span>Cari</span>
-                            </button>
+                            <input type="text" className='grow-1 bg-transparent outline-none text-lg w-full' placeholder='Cari data...' />
+                            <ButtonGlass>
+                                <Sliders className='text-xl' />
+                            </ButtonGlass>
                         </div>
                     </div>
                     <div>

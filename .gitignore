@@ -159,10 +159,7 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# Django
 core/config.py
-
-# Frontend Preact App
-frontend/preact-app/dist
-frontend/preact-app/node_modules
-frontend/preact-app/package-lock.json
+*/migrations
+package-lock.json
+node_modules

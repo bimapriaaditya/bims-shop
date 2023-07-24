@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "tailwindcss": "^3.3.2",
-    "preact": "^10.15.1"
-  }
-}
